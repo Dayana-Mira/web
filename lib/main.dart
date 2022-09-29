@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Taller DevOps---',
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primarySwatch: Colors.lightBlue,
       ),
       home: const MyHomePage(title: 'Taller DevOps'),
     );
@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlue,
+      backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text(widget.title),
       ),
